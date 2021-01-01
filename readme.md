@@ -1,3 +1,10 @@
+## Steps to run
+> install terminal-table
+```
+gem install terminal-table
+```
+> run the main.rb file to enter the items list seperated by comma
+
 ## Grocery Store Challenge
 
 At the local grocery store items are sold by quantity. For example Milk costs $3.97. However sometimes there is a sale and then consumers can buy n items for the price of one. 
@@ -31,7 +38,7 @@ Once user has listed all the items then print the total cost.
 You need to build solution for the given items and you do not need to worry about items which would be added in future -- in other words the pricing table is static.
 
 ``` 
-$ ruby price_calculator.rb
+$ ruby main.rb
 Please enter all the items purchased separated by a comma
 milk,milk, bread,banana,bread,bread,bread,milk,apple
 
