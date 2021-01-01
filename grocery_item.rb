@@ -52,7 +52,7 @@ class GroceryItem
     end
     if @item_quantity >= offer_on_item_quantity
       item_after_discount = ((offer_price * offer_on_item_quantity) * (@item_quantity / offer_on_item_quantity) ) + (item_price * (@item_quantity % offer_on_item_quantity))
-      return item_price_after_discount
+      return item_after_discount
     end
   end
 
